@@ -1,0 +1,85 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-one__navbar{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.section-one__navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+
+.section-two{
+    text-align: center;
+    padding: 10px;
+}
+.section-two__menu__one, .section-two__menu__two, .section-two__menu__three, .section-two__menu__four{
+    border: 3px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 350px;
+    border-radius: 5px;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.section-two__menu__one img, .section-two__menu__two img, .section-two__menu__three img, .section-two__menu__four img{
+    width: 200px;
+    height: 200px;
+}
+
+.section-three{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.section-three table{
+    display: inline-block;
+}
+.section-three button{
+    background-color: yellow;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section-three__form{
+    text-align: center;
+}
+
+.section-three input{
+    padding: 2px;
+    margin: 5px;
+    
+   
+}
+.section-three input::placeholder{
+    padding: 5px;
+
+}
+
+.section-two__menu__one button, .section-two__menu__two button, .section-two__menu__three button, .section-two__menu__four button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 15PX;
+    cursor: pointer;
+}
+
